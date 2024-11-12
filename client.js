@@ -17,3 +17,5 @@ submitButton.addEventListener('click', function () {
   // Logging out the values to verify they are being collected correctly
   console.log({ firstName, lastName, id, title, salary });
 });
+// Note for self: one of the reasons we use event listeners instead of onclicks is because you can add, remove or update them without having to touch the DOM and also onclicks you're only limited to one to one action per click while you can add multiple listener to a click with event listener
+// Note for self: We’re using querySelector to target specific elements on the page (in this case, the form inputs and button) based on their data-testid attributes.
