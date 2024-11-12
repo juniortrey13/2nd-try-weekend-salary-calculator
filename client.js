@@ -56,4 +56,10 @@ submitButton.addEventListener('click', function () {
   row.appendChild(salaryCell);
   // Finally, I’ll add the entire row to the table body so it appears on the page
   employeeTableBody.appendChild(row);
-});
+}); 
+// COMMENTS FOR WHAT IS NEXT BECAUSE I AM NOT DONE YET //
+// I have to create the delete button and following that I need to add the logic to be able remove a single employee row
+// Create the logic that will add Annual Salary to the total of my existing footer
+// Create my styling.css file
+// Create the over budget logic
+// Create the styling that will make it obvious we are over budget
